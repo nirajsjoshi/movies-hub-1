@@ -8,11 +8,16 @@ import Header from './components/Header';
 import Home from './components/Home';
 import Movie from './components/Movie';
 import NotFound from './components/NotFound';
+//aws
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
+import {withAuthenticator} from '@aws-amplify/ui-react';
+import {GlobalStyle} from './GlobalStyle';
 
-
+Amplify.configure(config);
 
 //Styles
-import {GlobalStyle} from './GlobalStyle';
+
 
 const App= ()=> {
   return (
@@ -29,4 +34,4 @@ const App= ()=> {
   );
 };
 
-export default App;
+export default withAuthenticator(App);
