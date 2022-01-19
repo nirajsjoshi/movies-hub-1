@@ -18,7 +18,6 @@ import NotFound from './components/NotFound';
 
 //Styles
 
-
 const App= ()=> {
   return (
     <Router>
