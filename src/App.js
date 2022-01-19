@@ -9,12 +9,12 @@ import Home from './components/Home';
 import Movie from './components/Movie';
 import NotFound from './components/NotFound';
 //aws
-import Amplify from 'aws-amplify';
-import config from './aws-exports';
-import {withAuthenticator} from '@aws-amplify/ui-react';
-import {GlobalStyle} from './GlobalStyle';
+// import Amplify from 'aws-amplify';
+// import config from './aws-exports';
+// import {withAuthenticator} from '@aws-amplify/ui-react';
+ import {GlobalStyle} from './GlobalStyle';
 
-Amplify.configure(config);
+// Amplify.configure(config);
 
 //Styles
 
@@ -34,4 +34,4 @@ const App= ()=> {
   );
 };
 
-export default withAuthenticator(App);
+export default (App);
