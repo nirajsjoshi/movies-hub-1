@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "movieshub4826325c_identitypool_4826325c",
+    "identityPoolName": "movieshubnewae152f98_identitypool_ae152f98",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "movies4826325c",
-    "userPoolName": "movieshub4826325c_userpool_4826325c",
+    "resourceNameTruncated": "moviesae152f98",
+    "userPoolName": "movieshubnewae152f98_userpool_ae152f98",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,31 +31,14 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "movies4826325c_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "moviesae152f98_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "4826325c",
-    "resourceName": "movieshub4826325c",
+    "sharedId": "ae152f98",
+    "resourceName": "movieshubnewae152f98",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
-    "userPoolGroupList": [
-      "pool1"
-    ],
+    "userPoolGroupList": [],
     "serviceName": "Cognito",
-    "usernameCaseSensitive": false,
-    "useEnabledMfas": true,
-    "authRoleArn": {
-      "Fn::GetAtt": [
-        "AuthRole",
-        "Arn"
-      ]
-    },
-    "unauthRoleArn": {
-      "Fn::GetAtt": [
-        "UnauthRole",
-        "Arn"
-      ]
-    },
-    "breakCircularDependency": true,
-    "dependsOn": []
+    "useEnabledMfas": false
   }
 }

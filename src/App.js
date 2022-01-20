@@ -13,9 +13,13 @@ import Amplify from "aws-amplify";
 import awsconfig from "./aws-exports";
 import { Authenticator } from "@aws-amplify/ui-react";
 import { GlobalStyle } from "./GlobalStyle";
+import { Auth } from 'aws-amplify';
+
+
+Amplify.configure(awsconfig);
 //import "@aws-amplify/ui-react.styles.css";
 //Amplify.configure(awsconfig);
-
+Auth.configure(awsconfig);
 //Styles
 
 const App = () => {

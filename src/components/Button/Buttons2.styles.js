@@ -15,8 +15,13 @@ export const Wrapper = styled.button`
   outline: none;
   cursor: pointer;
   position: absolute;
+  transform: translate(75vw, -85vh);
   float: right;
+  z-index: 99;
   :hover {
     opacity: 0.8;
   }
+`;
+export const WrapperButton = styled.div`
+  position: absolute;
 `;

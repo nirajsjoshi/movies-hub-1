@@ -24,8 +24,10 @@ import { useHomeFetch } from "../hooks/useHomeFetch";
 import {Authenticator} from "@aws-amplify/ui-react";
 import "@aws-amplify/ui-react/styles.css";
 
+
 //Image
 import NoImage from "../images/no_image.jpg";
+import Username from "./Username";
 
 const Home = () => {
   const { state, loading, error, searchTerm, setSearchTerm, setIsLoadingMore } =
@@ -47,7 +49,7 @@ const Home = () => {
               />
             ) : null}
             <SearchBar  setSearchTerm={setSearchTerm} signoutCallback={signOut} />
-            <p>{user.username}</p>
+            <Username>Welcome! {user.username}</Username>
             <Grid header={searchTerm ? "Search Result" : "Popular Movies"}>
               {state.results.map((movie) => (
                 <Thumb
