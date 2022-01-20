@@ -9,7 +9,9 @@ const Header = () => {
   return (
     <Wrapper>
       <Content>
-        <Link to="/">
+        <Link to="/" onClick={()=>{
+          window.reload();
+        }}>
           <LogoImg src={RMDBLogo} alt="rmdb-logo" />
         </Link>
         <TMDBLogoImg src={TMDBLogo} alt="tmdb-logo" />
