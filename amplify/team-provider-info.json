@@ -16,5 +16,23 @@
         "movieshub4826325c": {}
       }
     }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-movieshub-test-125221-authRole",
+      "UnauthRoleArn": "arn:aws:iam::221461085672:role/amplify-movieshub-test-125221-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::221461085672:role/amplify-movieshub-test-125221-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-movieshub-test-125221-deployment",
+      "UnauthRoleName": "amplify-movieshub-test-125221-unauthRole",
+      "StackName": "amplify-movieshub-test-125221",
+      "StackId": "arn:aws:cloudformation:us-east-1:221461085672:stack/amplify-movieshub-test-125221/b7059c50-79c1-11ec-b387-0ea0edc1b421",
+      "AmplifyAppId": "d1hwjbhn5j1ib"
+    },
+    "categories": {
+      "auth": {
+        "movieshub4826325c": {}
+      }
+    }
   }
 }
