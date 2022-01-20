@@ -46,9 +46,8 @@ const Home = () => {
                 text={state.results[0].overview}
               />
             ) : null}
-            <SearchBar setSearchTerm={setSearchTerm} />
+            <SearchBar  setSearchTerm={setSearchTerm} signoutCallback={signOut} />
             <p>{user.username}</p>
-            <Button text="Sign Out"onClick={signOut}/>
             <Grid header={searchTerm ? "Search Result" : "Popular Movies"}>
               {state.results.map((movie) => (
                 <Thumb
@@ -72,7 +71,7 @@ const Home = () => {
               
             )}
           </>
-        )}
+          )}
       </Authenticator>
     </div>
   );
