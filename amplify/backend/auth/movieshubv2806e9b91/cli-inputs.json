@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "movieshubnewae152f98_identitypool_ae152f98",
+    "identityPoolName": "movieshubv2806e9b91_identitypool_806e9b91",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "moviesae152f98",
-    "userPoolName": "movieshubnewae152f98_userpool_ae152f98",
+    "resourceNameTruncated": "movies806e9b91",
+    "userPoolName": "movieshubv2806e9b91_userpool_806e9b91",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,12 +31,15 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "moviesae152f98_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "movies806e9b91_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "ae152f98",
-    "resourceName": "movieshubnewae152f98",
+    "sharedId": "806e9b91",
+    "resourceName": "movieshubv2806e9b91",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
+    "usernameAttributes": [
+      "email"
+    ],
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "useEnabledMfas": false

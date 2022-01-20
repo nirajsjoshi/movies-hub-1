@@ -1,19 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-movieshubnew-dev-145737-authRole",
-      "UnauthRoleArn": "arn:aws:iam::221461085672:role/amplify-movieshubnew-dev-145737-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::221461085672:role/amplify-movieshubnew-dev-145737-authRole",
+      "AuthRoleName": "amplify-movieshubv2-dev-194306-authRole",
+      "UnauthRoleArn": "arn:aws:iam::221461085672:role/amplify-movieshubv2-dev-194306-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::221461085672:role/amplify-movieshubv2-dev-194306-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-movieshubnew-dev-145737-deployment",
-      "UnauthRoleName": "amplify-movieshubnew-dev-145737-unauthRole",
-      "StackName": "amplify-movieshubnew-dev-145737",
-      "StackId": "arn:aws:cloudformation:us-east-1:221461085672:stack/amplify-movieshubnew-dev-145737/37585940-79d3-11ec-84d3-0a935a658241",
-      "AmplifyAppId": "dqczf9xsy94yt"
+      "DeploymentBucketName": "amplify-movieshubv2-dev-194306-deployment",
+      "UnauthRoleName": "amplify-movieshubv2-dev-194306-unauthRole",
+      "StackName": "amplify-movieshubv2-dev-194306",
+      "StackId": "arn:aws:cloudformation:us-east-1:221461085672:stack/amplify-movieshubv2-dev-194306/1c019260-79fb-11ec-84bf-0edb2756b5a5",
+      "AmplifyAppId": "d2pfv00igcuhbn"
     },
     "categories": {
       "auth": {
-        "movieshubnewae152f98": {}
+        "movieshubv2806e9b91": {}
       }
     }
   }
