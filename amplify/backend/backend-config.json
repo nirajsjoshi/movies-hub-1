@@ -1,6 +1,6 @@
 {
   "auth": {
-    "movieshubnewae152f98": {
+    "mndb293968dd": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
